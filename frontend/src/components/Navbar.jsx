@@ -17,7 +17,7 @@ const Navbar = () => {
 
                 {/* Logo */}
                 <a href="#home">
-                    <div className=" w-10 flex flex-col items-center justify-center ">
+                    <div className="  w-8 lg:w-10 flex flex-col items-center justify-center ">
                         <img className="w-full h-full object-cover" src={assets.logo} alt="Logo" />
                         <h1 className="hidden lg:block text-sm font-bold font-gruppo">AGENWATT</h1>
                     </div>
@@ -39,7 +39,7 @@ const Navbar = () => {
 
                 {/* Desktop Button */}
                 <div className="hidden md:block">
-                    <button onClick={getstarted} className="px-5 py-2 rounded-full bg-green-500 text-white text-sm hover:bg-green-600 transition-colors duration-300">
+                    <button onClick={getstarted} className="px-5 py-2 rounded-lg bg-green-500 text-white text-sm hover:bg-green-600 transition-colors duration-300">
                         Get Started
                     </button>
                 </div>
@@ -47,7 +47,7 @@ const Navbar = () => {
 
                 {/* Mobile Hamburger */}
                 <button
-                    className="md:hidden text-2xl"
+                    className="md:hidden text-xs"
                     onClick={() => setOpen(true)}
                 >
                     ☰
@@ -83,12 +83,12 @@ const Navbar = () => {
 
                 <div className="flex justify-between items-center px-6 py-5 border-b border-white/20">
 
-                    <div className=" w-10 gap-1">
-                        <img className="w-full h-full object-cover" src={assets.logo} alt="Logo" />
-                        <h1 className=" text-sm font-bold font-gruppo ">AGENWATT</h1>
+                    <div className=" w-6 flex ">
+                        <img className=" h-full object-cover " src={assets.logo} alt="Logo" />
+                        <h1 className=" text-xs font-bold font-gruppo ">AGENWATT</h1>
                     </div>
                     <button
-                        className="text-2xl"
+                        className="text-xs"
                         onClick={() => setOpen(false)}
                     >
                         ✕
@@ -98,7 +98,7 @@ const Navbar = () => {
 
 
 
-                <ul className="flex flex-col gap-6 px-6 py-10 text-lg">
+                <ul className="flex flex-col gap-6 px-6 py-10 text-xs">
 
                     <li>
                         <a href="#home" onClick={() => setOpen(false)}>
@@ -131,7 +131,7 @@ const Navbar = () => {
 
 
                     <li>
-                        <button className="mt-4 px-5 py-2 rounded-full bg-green-500">
+                        <button onClick={getstarted} className="mt-4 px-4 py-2 rounded-full bg-green-500 text-xs lg:text-lg">
                             Get Started
                         </button>
                     </li>

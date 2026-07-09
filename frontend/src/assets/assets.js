@@ -10,6 +10,7 @@ import fakhir from './fakhir.webp'
 import humema from './humema.webp'
 import batool from './batool.webp'
 import logo from './logo.png'
+import call from './call.png'
 
 export const assets = {
     backgroundImage,
@@ -23,5 +24,6 @@ export const assets = {
     fakhir,
     humema,
     batool,
-    logo
+    logo,
+    call
 }
