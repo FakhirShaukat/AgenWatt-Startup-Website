@@ -47,7 +47,7 @@ const Navbar = () => {
 
                 {/* Mobile Hamburger */}
                 <button
-                    className="md:hidden text-xs"
+                    className="md:hidden text-sm"
                     onClick={() => setOpen(true)}
                 >
                     ☰
@@ -88,7 +88,7 @@ const Navbar = () => {
                         <h1 className=" text-xs font-bold font-gruppo ">AGENWATT</h1>
                     </div>
                     <button
-                        className="text-xs"
+                        className="text-sm"
                         onClick={() => setOpen(false)}
                     >
                         ✕

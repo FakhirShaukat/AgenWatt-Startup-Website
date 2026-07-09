@@ -141,7 +141,7 @@ const Home = () => {
             <motion.div initial={{ opacity: 0, y: 60 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.8 }} id='about' className="About section min-h-[300px] pt-5 px-6 md:px-10 flex flex-col lg:flex-row justify-between items-center gap-8">
+                transition={{ duration: 0.8 }} id='about' className="About section min-h-[300px] pt-10 lg:pt-0 px-6 md:px-10 flex flex-col lg:flex-row justify-between items-center gap-8">
 
                 <div className="w-full lg:w-[50%]">
 
@@ -149,7 +149,7 @@ const Home = () => {
                         About AgenWatt
                     </span>
 
-                    <h1 className="text-xl md:text-4xl font-semibold mt-6">
+                    <h1 className="text-xl md:text-3xl font-semibold mt-6">
                         A bridge between physical infrastructure and intelligent decision making.
                     </h1>
 
@@ -158,7 +158,7 @@ const Home = () => {
 
                 <div className="w-full lg:w-[50%]">
 
-                    <p className="text-xs lg:text-base mt-2">
+                    <p className="text-xs lg:text-base ">
                         Modern energy systems are becoming more distributed, more instrumented,
                         and harder to operate with traditional monitoring alone.
                         AgenWatt is designed to help industrial and enterprise teams interpret
@@ -177,7 +177,7 @@ const Home = () => {
             <motion.div initial={{ opacity: 0, y: 60 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.8 }} className="services-section min-h-[350px] bg-gray-100 mt-10 px-6 md:px-10 flex flex-col items-center">
+                transition={{ duration: 0.8 }} className="services-section min-h-[350px] bg-gray-100 mt-5 px-6 md:px-10 flex flex-col items-center">
 
                 <div className="mt-10 text-center">
 
@@ -185,12 +185,12 @@ const Home = () => {
                         System Flow
                     </span>
 
-                    <h1 className="text-xl md:text-4xl font-semibold pt-8">
+                    <h1 className="text-xl md:text-3xl font-semibold pt-6">
                         How AgenWatt Works
                     </h1>
 
 
-                    <div className="flow mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mb-4">
+                    <div className="flow mt-5 lg:mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mb-4">
 
                         <div className="border p-4 bg-white rounded-xl shadow-lg shadow-gray-300">
                             <h1 className="font-semibold text-xs lg:text-lg">Data Collection</h1>
@@ -349,7 +349,7 @@ const Home = () => {
                     </span>
 
 
-                    <h1 className="mt-6 text-xl w-64 lg:w-full md:text-4xl font-bold text-gray-900">
+                    <h1 className="mt-6 text-xl w-full md:text-4xl font-bold text-gray-900">
                         Proudly Incubated & Supported By
                     </h1>
 
