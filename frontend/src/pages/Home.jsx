@@ -418,21 +418,23 @@ const Home = () => {
                             Let's work together to create a smarter and sustainable future.
                         </p>
 
+                        <div className='pt-20'>
+                            <button className="mt-6 bg-green-500 hover:bg-green-600 text-white text-xs lg:text-base px-4 py-2 rounded-full font-medium">
 
+                                Contact Us
 
-                        <button className="mt-6 bg-green-500 hover:bg-green-600 text-white text-xs lg:text-base px-4 py-2 rounded-full font-medium">
+                            </button>
+                            <div className="flex items-center mt-4 gap-2">
+                                <div className='border rounded-full p-2 border border-red-500'><img className='w-4' src={assets.call} alt="Call" /></div>
+                                <div className='text-white'>
+                                    <p className="text-xs lg:text-sm ">+92 331 2608373</p>
+                                    <p className="text-xs lg:text-sm">+92 303 2144977</p>
+                                </div>
 
-                            Contact Us
-
-                        </button>
-                        <div className="flex items-center mt-4 gap-2">
-                            <div className='border rounded-full p-2 border border-red-500'><img className='w-4' src={assets.call} alt="Call" /></div>
-                            <div className='text-white'>
-                                <p className="text-xs lg:text-sm ">+92 331 2608373</p>
-                                <p className="text-xs lg:text-sm">+92 303 2144977</p>
                             </div>
-
                         </div>
+
+
 
 
                     </div>
