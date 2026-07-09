@@ -31,7 +31,7 @@ const Home = () => {
                                 <motion.div initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
                                     transition={{ duration: 0.8 }} className="text-content w-full lg:w-[60%]">
-                                    <h1 className="text-3xl md:text-5xl lg:text-7xl leading-snug font-semibold text-white">
+                                    <h1 className="text-4xl md:text-5xl lg:text-7xl leading-snug font-semibold text-white">
                                         Transform complex energy utilization into
                                         <span className="text-green-500"> Intelligent AI System.</span>
                                     </h1>
