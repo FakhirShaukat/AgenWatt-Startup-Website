@@ -9,7 +9,7 @@ const Home = () => {
     const learnmore = () => {
         window.location.href = "#about"
     }
-
+    
     const meetTeam = () => {
         window.location.href = "#team"
     }
@@ -304,7 +304,7 @@ const Home = () => {
                                 </h1>
 
                                 <p className="text-center pt-2 text-xs lg:text-sm text-gray-500">
-                                    Co-Founder & Data Scientist
+                                    Founder & Data Scientist
                                 </p>
                             </div>
 
